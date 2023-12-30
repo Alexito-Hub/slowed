@@ -1,0 +1,29 @@
+{
+  "name": "slowed",
+  "version": "1.0.0",
+  "description": "A whatsapp bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "cfonts": "^3.2.0",
+    "cli-color": "^2.0.3",
+    "colors": "^1.4.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment-timezone": "^0.5.44",
+    "node-webpmux": "^3.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexito-Hub/slowed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alexito-Hub/slowed/issues"
+  },
+  "homepage": "https://github.com/Alexito-Hub/slowed#readme"
+}
