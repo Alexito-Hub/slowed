@@ -185,7 +185,7 @@ const mime = (quoted.info || quoted).Mimetype || ""
 const sleep = async (ms) => {return new Promise(resolve => setTimeout(resolve, ms))}
 const pushname = info.pushName ? info.pushName : ''
 const isBot = info.key.fromMe ? true : false
-const owner = "573152547721"
+const owner = "51968374620"
 const senderNumber = sender.split("@")[0]
 const isOwner = senderNumber == owner
 const nomeBot = "Slowed"
