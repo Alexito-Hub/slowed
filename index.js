@@ -617,12 +617,12 @@ case 'creador':
     break
 
 case 'limpiarqr':
-  carregamento()
-  await sleep(3000)  
     if (!isOwner) {
       enviar('*_solo mi dueño puede usar este comando_* 😠')
     } else {
+      carregamento()
       limpiarQR()
+      await sleep(3000)  
       enviar('*_listo , QR limpio (si no se envían mensajes reinicie bot)_*')
     }
     break
