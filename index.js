@@ -621,8 +621,9 @@ case 'limpiarqr':
       enviar('*_solo mi dueño puede usar este comando_* 😠')
     } else {
       carregamento()
+      await sleep(3000)
       limpiarQR()
-      await sleep(3000)  
+      await sleep(3000)
       enviar('*_listo , QR limpio (si no se envían mensajes reinicie bot)_*')
     }
     break
